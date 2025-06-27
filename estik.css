@@ -1,0 +1,11 @@
+.texto
+ {
+background-color: tomato;
+width: 200;
+padding: 20px;
+box-sizing: border-box;
+}
+image
+{
+    width: 700;
+}

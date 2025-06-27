@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+font-family: Arial, sans-serif;
+background-color: azure;
+}
+body {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+/*
+flex-grow: 1 => permite que el contenedor crezca para ocupar
+todo el espacio disponible en el eje principal (vertical).
+*/
+flex-grow: 1;
+/*
+flex-shrink: 1 => permite que el contenedor se reduzca si
+no hay suficiente espacio en pantalla.
+*/
+flex-shrink: 1;
+/*
+flex-basis: 0% => indica que el tamaño base inicial del
+contenedor es 0; el tamaño final se determina solo por grow/shrink.
+*/
+flex-basis: 0%;
+}
+header {
+background-color: brown;
+color: azure;
+padding: 20px 0;
+}
+nav {
+display: flex;
+justify-content: center;
+gap: 40px;
+}nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 16px;
+}
+nav a:hover {
+background-color: #555;
+border-radius: 5px;
+}
+main {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 40px 20px;
+max-width: 800px;
+margin: auto;
+background-color: azure;
+}
+section {
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+}
+footer {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: white;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+</header>
+<main>
+<section id="">
+<h2>Reparacion de computadoras</h2>
+<p>la reparación de computadoras implica:
+    <br>
+    <br>
+    Diagnóstico:
+    Identificar el origen del problema, ya sea hardware (componentes físicos como la tarjeta madre, memoria RAM, disco duro, etc.) o software (sistemas operativos, programas, controladores, etc.).
+    Solución:
+    Dependiendo del problema, la solución puede ser:
+    Reparación: Arreglar o ajustar un componente defectuoso.
+    Reemplazo: Sustituir un componente dañado o defectuoso por uno nuevo.
+    Instalación/Actualización: Instalar o actualizar software, controladores o sistemas operativos.
+    Solución de problemas de software: Resolver errores o fallas en el software de la computadora.
+    <br>
+    <br>
+    Mantenimiento:
+    Asegurar el buen funcionamiento a largo plazo, lo que puede incluir limpieza, optimización del sistema y actualizaciones periódicas. 
+    Ejemplos de problemas que se pueden solucionar con la reparación de computadoras:
+    Computadora no enciende o se apaga repentinamente.
+    El sistema operativo no arranca o presenta errores.
+    La computadora se vuelve lenta o tarda en responder.
+    Fallas en el hardware (disco duro, memoria RAM, etc.).
+    Problemas de red o conectividad. 
+    <br>
+    <br>
+    La reparación de computadoras es importante porque:
+    Ayuda a mantener la productividad y el uso normal de la computadora.
+    Previene la pérdida de datos y el daño a los componentes.
+    Asegura el buen funcionamiento de la computadora a largo plazo. </p>
+    <br>
+    <br>
+    <img src="pc.jpg">;
+</section>
+<section id="servicios">
+<h2>Reparacion de celulares</h2>
+<p>
+
+    Descripción detallada:
+    <br>
+Diagnóstico:
+Se realizan pruebas para identificar la causa del problema, ya sea una falla en el hardware (como la pantalla, batería, puertos de carga, etc.) o en el software (como errores del sistema operativo, aplicaciones o malware). 
+<br>
+<br>
+Reparación de Hardware:
+Incluye el reemplazo de componentes defectuosos, como pantallas LCD, baterías, puertos de carga, botones, micrófonos y altavoces. 
+<br>
+<br>
+Reparación de Software:
+Implica la actualización del sistema operativo, la eliminación de malware, la resolución de errores de aplicaciones y la restauración del sistema a un estado operativo. 
+<br>
+<br>
+Mantenimiento Preventivo:
+Incluye la limpieza de los componentes, la actualización del software, la optimización del rendimiento y la prevención de futuras fallas. 
+<br>
+<br>
+Aseguramiento de Calidad:
+Después de la reparación, se realizan pruebas para garantizar que el dispositivo funciona correctamente y que el problema ha sido solucionado de manera efectiva. 
+<br>
+<br>
+Presupuestos y Asesoramiento:
+Los técnicos pueden asesorar a los clientes sobre la viabilidad de la reparación, el costo de los repuestos y las opciones disponibles para la solución del problema. 
+<br>
+<br>
+<img src="celula.jpg">;
+    </p>
+</section>
+</main>
+</div>
+<footer>
+&copy; 2025 Mi Página Web. Todos los derechos reservados.
+</footer>
+</body>
+</html>
